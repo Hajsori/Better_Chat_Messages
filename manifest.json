@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Better Chat Messages",
+        "description": "With this Behavior Pack you can change the layout of messages from players in the chat!!\nYou just need to run §l/chatlayout <set/reset> <player> [layout]",
+        "uuid": "06472fb1-ea70-46eb-a8fc-9b70fdc0a59a",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 100]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "d68ca721-926c-443d-b6a4-0d354b5afc9d",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "d5e17b83-6e69-46a0-a999-1410fe162fe5",
+            "version": [1, 0, 0],
+            "entry": "scripts/xyz/hajsori/bcm/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.4.0-beta"
+        }
+    ]
+}
