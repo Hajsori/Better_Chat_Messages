@@ -4,8 +4,8 @@
         "name": "Better Chat Messages",
         "description": "With this Behavior Pack you can change the layout of messages from players in the chat!!\nYou just need to run §l/chatlayout <set/reset> <player> [layout]",
         "uuid": "06472fb1-ea70-46eb-a8fc-9b70fdc0a59a",
-        "version": [1, 0, 0],
-        "min_engine_version": [1, 21, 100]
+        "version": [1, 0, 1],
+        "min_engine_version": [1, 21, 130]
     },
     "modules": [
         {
